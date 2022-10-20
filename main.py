@@ -29,7 +29,7 @@ from discord.ext import commands
 #        Passel so that all pinned messages get sent to the pins archive channel.
 
 # TODO change command here if you want to use another command, replace p. with anything you want inside the single ('') quotes
-client = commands.Bot(command_prefix='p.',
+client = commands.Bot(command_prefix='=',
                       status='Online', case_insensitive=True)
 client.remove_command("help")
 
@@ -39,11 +39,11 @@ mode = 1
 # TODO 
 # sendall is set to 0 by default, change to 1 if you want
 # the bot to send all pinned messages to the pins channel
-sendall = 0
+sendall = 1
 
 # TODO 
 # replace the 0 with the pins channel ID for your sever
-pins_channel = 948375476685111296/954794285222486046
+pins_channel = 1024018119368376363
 
 # TODO
 # add any black listed channel IDs as a list separated by a comma (,)
